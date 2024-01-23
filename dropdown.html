@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Document</title>
+</head>
+
+<style>
+
+.main-header{
+background-color:white;
+color: black;
+list-style: none;
+display: flex;
+justify-content:space-between;
+line-height: 50px;
+font-size: 20px;
+}
+
+.sub-header{
+background-color:black;
+color: white;
+list-style: none;
+display: flex;
+justify-content:center;
+line-height: 50px;
+font-size: 20px;
+}
+  
+li{
+padding: 0 30px;
+cursor: pointer;
+}
+  
+li:hover{
+background-color: rgb(113, 206, 113);
+color: white;
+}
+  
+*{
+margin: 0;
+}
+  
+  
+.content{
+position: absolute;
+background-color: white;
+color: black;
+display: none;
+          
+         
+  
+}
+  
+.content > li:hover{
+background-color: bisque;
+color: white;
+}
+  
+.hover{
+position: relative;
+  
+  
+
+}
+  
+.hover:hover .content{
+display: block;
+}
+.gradient{
+    padding: 10px;
+    height: 150px;
+   background-image: radial-gradient(violet, indigo, green, yellow, orange, red);
+
+}
+h1{
+    background-color: blueviolet;
+    height: 100px;
+    width: 150px;
+    transition: transform 5s;
+}
+.box{
+
+    display: flex;
+    justify-content: space-around;
+}
+h1:nth-child(Box1):hover{
+    transform: translate(900px);
+}
+</style>
+<body>
+<div>
+    <div class="main-header"> 
+    <li><i class="fa-solid fa-phone-volume"></i><br>Contact</li>
+    <li><i class="fa-regular fa-handshake"></i><br>Services </li>
+    <ii><i class="fa-solid fa-address-card"></i><br>About As</ii>
+    <li style="color: rgb(0, 251, 255)">V-EX TECH SOLUTION</li>
+    <li> <i class="fa-regular fa-id-badge"></i></li>
+    <li><i class="fa-solid fa-arrow-left"></i></li>
+    <li><i class="fa-solid fa-square-poll-horizontal"></i></li>
+</div>
+</div>
+</div>
+<div class="sub-header">
+<div class="hover">
+<li>Frontend</li>
+<div class="content">
+<li>HTML</li>
+<li>CSS</li>
+<li>ADVANCE Css</li>
+<li>JAVA SCRIPT</li>
+<li>Bootstrap</li>
+<li>Reactjs</li>
+
+</div>
+</div>
+<div class="hover">
+<li>MERN Stack</li>
+<div class="content">
+<li>Mongo DB</li>
+<li>Express</li>
+<li>React JS</li>
+<li>Node Js</li>
+</div>
+</div>
+<div class="hover">
+<li>Python</li>
+<div class="content">
+<li></li>
+<li>Core Python</li>
+</div>
+</div>
+<div class="hover">
+<li>Data Analysis</li>
+<div class="content">
+<li>Python</li>
+<li>Advance Excel</li>
+<li>Ms SQL</li>
+<li>Power BI</li>
+<li>Excel</li>
+
+</div>
+</div>
+<div class="hover">
+<li>Data Science</li>
+<div class="content">
+<li>Mechine Learning</li>
+</div>
+</div>
+<div class="hover">
+<li>UI Designe</li>
+<div class="content">
+<li>FIGMA</li>
+<li>Web Designe</li>
+</div>
+</div>
+<div class="hover">
+<li>Software Testing</li>
+<div class="content">
+<li>Manual</li>
+<li>Automated</li>
+</div>
+</div>
+
+</div>
+<div class="gradient"> </div>
+<div class="box">
+    <h1>Box1</h1>
+    <h1>Box2</h1>
+    <h1>Box3</h1>
+</div>
+</body>
+</html>
